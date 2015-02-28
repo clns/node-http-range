@@ -48,8 +48,8 @@ Throws error if arguments are invalid.
 
 ###### Methods
 
-- `toString()` Return a valid string value
-- `parse(input)` Parse an input string. Throws error if invalid
+- `toString()` {String} Return a valid string value
+- `parse(input)` {ContentRange} Parse an input string. Throws error if invalid
 
 #### Allowed Content-Range(s)
 
@@ -74,8 +74,8 @@ Throws error if arguments are invalid.
 
 ###### Methods
 
-- `toString()` Return a valid string value
-- `parse(input)` Parse an input string. Throws error if invalid
+- `toString()` {String} Return a valid string value
+- `parse(input)` {Range} Parse an input string. Throws error if invalid
 
 #### Allowed Range(s)
 
@@ -101,8 +101,8 @@ Throws error if arguments are invalid.
 
 ###### Methods
 
-- `toString()` Return a valid string value
-- `parse(input)` Parse an input string. Throws error if invalid
+- `toString()` {String} Return a valid string value
+- `parse(input)` {RangeSpec} Parse an input string. Throws error if invalid
 
 #### Examples of valid ranges
 
