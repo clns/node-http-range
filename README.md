@@ -3,6 +3,8 @@ Node.js parser for [Content-Range](http://www.w3.org/Protocols/rfc2616/rfc2616-s
 and [Range](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35) HTTP header fields
 according to the HTTP/1.1 specifications.
 
+[![Build Status](https://travis-ci.org/clns/node-http-range.svg?branch=master)](https://travis-ci.org/clns/node-http-range)
+
 ## Installation
 
 ```sh
