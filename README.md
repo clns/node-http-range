@@ -1,4 +1,4 @@
-# node-http-range
+# http-range
 Node.js parser for [Content-Range](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.16)
 and [Range](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35) HTTP header fields
 according to the HTTP/1.1 specifications.
@@ -6,14 +6,14 @@ according to the HTTP/1.1 specifications.
 ## Installation
 
 ```sh
-$ npm install node-http-range
+$ npm install http-range
 ```
 
 ## Usage
 
 ```js
-var ContentRange = require('node-http-range').ContentRange;
-var Range = require('node-http-range').Range;
+var ContentRange = require('http-range').ContentRange;
+var Range = require('http-range').Range;
 
 // Parsing and creating 'Content-Range' header
 ContentRange.prototype.parse('bytes 0-49/50');  // Content-Range: bytes 0-49/50

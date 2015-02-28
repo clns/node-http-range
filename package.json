@@ -1,5 +1,5 @@
 {
-  "name": "node-http-range",
+  "name": "http-range",
   "version": "1.0.0",
   "description": "Node.js parser for Content-Range and Range HTTP/1.1 header fields.",
   "main": "./lib/index.js",
