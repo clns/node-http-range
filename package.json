@@ -1,0 +1,30 @@
+{
+  "name": "node-http-range",
+  "version": "1.0.0",
+  "description": "Node.js parser for Content-Range and Range HTTP/1.1 header fields.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --slow 5 --check-leaks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clns/node-http-range"
+  },
+  "keywords": [
+    "content-range",
+    "range",
+    "http",
+    "header",
+    "parser",
+    "http/1.1"
+  ],
+  "author": "Calin Seciu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clns/node-http-range/issues"
+  },
+  "homepage": "https://github.com/clns/node-http-range",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
